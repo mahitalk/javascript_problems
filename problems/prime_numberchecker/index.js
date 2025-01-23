@@ -1,3 +1,5 @@
+// checking prime numbers
+
 function primeNumberChecker(Number) {
   let isPrime = true;
   if (Number < 1) {
