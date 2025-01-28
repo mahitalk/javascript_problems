@@ -47,4 +47,75 @@ Armstrong Number
 Description: Check if a number equals the sum of its digits raised to the power of the number of digits.
 Example Input: 153
 Example Output: Armstrong
+
+Find Maximum
+Description: Find the largest number in an array.
+Example Input: [1, 3, 7, 2]
+Example Output: 7
+
+Find Minimum
+Description: Find the smallest number in an array.
+Example Input: [8, 4, 2, 6]
+Example Output: 2
+
+Find Second Largest
+Description: Find the second largest number in an array.
+Example Input: [12, 34, 23, 56]
+Example Output: 34
+
+Reverse Array
+Description: Reverse the elements in an array.
+Example Input: [1, 2, 3]
+Example Output: [3, 2, 1]
+
+Sort Array
+Description: Sort an array in ascending order.predefined function not use.
+Example Input: [4, 2, 9, 1]
+Example Output: [1, 2, 4, 9]
+
+Remove Duplicates
+Description: Remove duplicate elements from an array.
+Example Input: [1, 2, 2, 3]
+Example Output: [1, 2, 3]
+
+Find Index
+Description: Find the index of a given number in an array.
+Example Input: [10, 20, 30], target = 20
+Example Output: 1
+
+Array Sum
+Description: Calculate the sum of all numbers in an array.
+Example Input: [4, 5, 6]
+Example Output: 15
+
+Rotate Array
+Description: Rotate an array to the left by k steps.
+Example Input: [1, 2, 3, 4, 5], k = 2
+Example Output: [3, 4, 5, 1, 2]
+
+Count Occurrences
+Description: Count the occurrences of each element in an array.
+Example Input: [1, 2, 2, 3, 3, 3]
+Example Output: {1: 1, 2: 2, 3: 3}
 */
+
+///let arr = [10, 7, 8, 4, 2, 9];
+// [7, 10, 8, 4, 2, 9]
+// [7, 8, 10, 4, 2, 9]
+// [7, 8, 4, 10, 2, 9]
+// [7, 8, 4, 2, 10, 9]
+// [7, 8, 4, 2, 9, 10]
+
+// [7, 8, 4, 2, 9, 10]
+// [7, 4, 8, 2, 9, 10]
+// [7, 4, 2, 8, 9, 10]
+// [7, 4, 2, 8, 9, 10]
+
+// [4, 7, 2, 8, 9, 10]
+// [4, 2, 7, 8, 9, 10]
+// [4, 2, 7, 8, 9, 10]
+
+// [2, 4, 7, 8, 9, 10]
+// [2, 4, 7, 8, 9, 10]
+
+// [2, 4, 7, 8, 9, 10]
