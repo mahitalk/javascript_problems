@@ -24,5 +24,5 @@ let arr3 = [78, 56, 24, 92];
 console.log(maximumNumber(arr3));
 let arr4 = [19, 35, 72, 20];
 console.log(maximumNumber(arr4));
-let arr5 = [11, 56, 78, 901];
+let arr5 = [11, 56, 78, -901];
 console.log(maximumNumber(arr5));
