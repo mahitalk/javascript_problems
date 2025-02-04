@@ -17,7 +17,7 @@ function secondLargest(arr) {
   }
   return arr[arr.length - 2];
 }
-let arr = [10, 7, 8, 4, 2, 9];
+let arr = [12, 34, 23, 56];
 console.log(secondLargest(arr));
 let arr1 = [1, 3, 7, 2];
 console.log(secondLargest(arr1));
