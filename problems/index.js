@@ -96,7 +96,7 @@ Example Output: [3, 4, 5, 1, 2]  // not done
 Count Occurrences
 Description: Count the occurrences of each element in an array.
 Example Input: [1, 2, 2, 3, 3, 3]
-Example Output: {1: 1, 2: 2, 3: 3}  // not done
+Example Output: {1: 1, 2: 2, 3: 3} 
 */
 
 ///let arr = [10, 7, 8, 4, 2, 9];
