@@ -66,7 +66,7 @@ Example Output: 34
 Reverse Array
 Description: Reverse the elements in an array.
 Example Input: [1, 2, 3]
-Example Output: [3, 2, 1]
+Example Output: [3, 2, 1] // not done
 
 Sort Array
 Description: Sort an array in ascending order.predefined function not use.
@@ -91,12 +91,12 @@ Example Output: 15
 Rotate Array
 Description: Rotate an array to the left by k steps.
 Example Input: [1, 2, 3, 4, 5], k = 2
-Example Output: [3, 4, 5, 1, 2]
+Example Output: [3, 4, 5, 1, 2]  // not done
 
 Count Occurrences
 Description: Count the occurrences of each element in an array.
 Example Input: [1, 2, 2, 3, 3, 3]
-Example Output: {1: 1, 2: 2, 3: 3}
+Example Output: {1: 1, 2: 2, 3: 3}  // not done
 */
 
 ///let arr = [10, 7, 8, 4, 2, 9];
