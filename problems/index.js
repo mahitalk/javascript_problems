@@ -66,7 +66,7 @@ Example Output: 34
 Reverse Array
 Description: Reverse the elements in an array.
 Example Input: [1, 2, 3]
-Example Output: [3, 2, 1] // not done
+Example Output: [3, 2, 1]
 
 Sort Array
 Description: Sort an array in ascending order.predefined function not use.
