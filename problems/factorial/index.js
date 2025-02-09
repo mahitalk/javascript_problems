@@ -7,6 +7,23 @@ function factorial(number) {
   }
   return fact;
 }
+
+function recursionFactorial(number) {
+  if (number === 1) {
+    return 1;
+  }
+
+  return number * recursionFactorial(number - 1);
+}
+
+function reverse(string) {
+  if (string === "") {
+    return "";
+  }
+
+  return;
+}
+
 const factorialNumber1 = factorial(5);
 const factorialNumber2 = factorial(111);
 const factorialNumber3 = factorial(99);
