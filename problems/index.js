@@ -127,18 +127,18 @@ Example Output: {1: 1, 2: 2, 3: 3}
 
 // Key Count:
 // Write a function that takes an object as input and returns the number of keys in the object.
-
 // js
 // Copy
 // Edit
 // countKeys({ name: "Alice", age: 25, city: "New York" }); // Output: 3
+
 // Check for a Key:
 // Write a function that checks whether a given key exists in an object or not.
-
 // js
 // Copy
 // Edit
 // hasKey({ a: 1, b: 2, c: 3 }, "b"); // Output: true
+
 // Merge Two Objects:
 // Write a function that merges two objects into one.
 
