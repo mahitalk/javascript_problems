@@ -120,8 +120,9 @@ Example Output: {1: 1, 2: 2, 3: 3}
 
 // [2, 4, 7, 8, 9, 10]
 
-// /*
+//
 // Beginner-Level Questions
+
 // Create an Object:
 // Write a JavaScript object that represents a student with properties name, age, and marks. Add a method to calculate the student's grade based on marks.
 
@@ -145,48 +146,46 @@ Example Output: {1: 1, 2: 2, 3: 3}
 // // Output: [["a", 1], ["b", 2], ["c", 3]]
 
 // Find Maximum Value in an Object:
-// Write a function to find the key with the maximum value in an object.
+// Write a function to find the key with the maximum   value in an object.
 // maxKey({ a: 10, b: 25, c: 15 }); // Output: "b"
 
 // Invert an Object:
 // Swap keys and values of an object.
-
 // invertObject({ a: 1, b: 2, c: 3 });
 // // Output: { 1: "a", 2: "b", 3: "c" }
+
 // Remove a Key from an Object:
 // Write a function that removes a specific key from an object.
-
 // removeKey({ a: 1, b: 2, c: 3 }, "b");
-// // Output: { a: 1, c: 3 }
+// Output: { a: 1, c: 3 }
+
 // Advanced-Level Questions
+
 // Deep Clone an Object:
 // Write a function to deep copy an object without using JSON.parse(JSON.stringify(obj)).
 
 // Flatten a Nested Object:
 // Convert a deeply nested object into a flat object.
-
 // flattenObject({ a: { b: { c: 1 } }, d: 2 });
 // // Output: { "a.b.c": 1, "d": 2 }
+
 // Group Objects by a Key:
 // Given an array of objects, group them by a specific property.
 // groupBy([{ name: "Alice", age: 25 }, { name: "Bob", age: 30 }, { name: "Charlie", age: 25 }], "age");
 // // Output: { "25": [{ name: "Alice", age: 25 }, { name: "Charlie", age: 25 }], "30": [{ name: "Bob", age: 30 }] }
+
 // Check if Two Objects are Deeply Equal:
 // Write a function to check whether two objects are deeply equal.
 // deepEqual({ a: 1, b: { c: 2 } }, { a: 1, b: { c: 2 } });
 // // Output: true
-// Would you like solutions for any of these questions? 🚀
 
-// You said:
-// give me some more advanced level
-// ChatGPT said:
 // Here are some advanced-level JavaScript object problems that require a deep understanding of objects, recursion, and functional programming concepts.
 
 // 1. Deep Merge Two Objects
 // Write a function to deeply merge two objects. If a key exists in both objects and the values are objects, merge them recursively. Otherwise, the second object's value should overwrite the first.
 
 // Example:
-// deepMerge({ a: { x: 10 }, b: 20 }, { a: { y: 30 }, b: 40, c: 50 });
+// deepMerge({ a: { x: {z: 30} }, b: 20 }, { a: { y: 30, x: {z: 34} }, b: 40, c: 50 });
 // // Output: { a: { x: 10, y: 30 }, b: 40, c: 50 }
 // 2. Find the Most Frequent Value in an Object
 // Write a function that finds the most frequently occurring value in an object, including nested objects.
