@@ -252,18 +252,21 @@ Example Output: {1: 1, 2: 2, 3: 3}
 // Example:
 // cleanObject({ a: 1, b: null, c: undefined, d: false, e: "hello" });
 // // Output: { a: 1, e: "hello" }
+
 // 12. Generate a Nested Object from an Array of Keys
 // Write a function that converts an array of keys into a nested object where each key points to the next key, and the last key points to a given value.
 
 // Example:
 // generateObject(["a", "b", "c"], 10);
 // // Output: { a: { b: { c: 10 } } }
+
 // 13. Check if Two Objects are Structurally Similar
 // Write a function that checks if two objects have the same structure (keys and nested structure), ignoring values.
 
 // Example:
 // sameStructure({ a: { b: 1 }, c: 2 }, { a: { b: 10 }, c: 20 });
 // // Output: true
+
 // 14. Convert an Object to a Nested Array
 // Convert an object into a nested array representation.
 
