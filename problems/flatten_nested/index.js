@@ -21,7 +21,6 @@ function flattenObject(obj, prefix = "") {
       obj3[prefix + key] = obj[key];
     }
   }
-  console.log("obj3", obj3);
   return obj3;
 }
 console.log(flattenObject({ a: { b: { c: 1 } }, d: 2 }));
